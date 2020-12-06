@@ -74,13 +74,19 @@ h2 {
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 @media screen and (max-width: 42em)
-.main-content {
+.main-content{
     padding: 2rem 1rem;
     font-size: 1rem;
 }
 
+.main-content p {
+  margin-bottom: 1em;
+  padding: 1rem 3rem;
+}
+
 p {
   display: block;
+  box-align: center;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
