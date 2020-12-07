@@ -13,8 +13,10 @@ body {
 	line-height: 1.5;
 	color: #606c71;
 }
-@media screen and (max-width: 42em) .project-name {
-	font-size: 1.75rem;
+@media screen and (max-width: 42em) {
+	.project-name {
+		font-size: 1.75rem;
+	}
 }
 .project-name {
 	margin-top: 0;
@@ -26,10 +28,13 @@ body {
 	background-color: #54ce91;
 	background-image: linear-gradient(120deg, #2b5580, #34af8a);
 }
-/* h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-} */
+@media screen and (max-width: 42em) {
+	h1 {
+		font-size: 2em;
+		margin: 0.67em 0;
+	}
+}
+
 h1 {
 	color: white;
 	display: block;
@@ -100,13 +105,3 @@ p {
 		padding: 4rem 5rem;
 	}
 }
-
-/* The styles for the parallax
-.hero {
-  position: relative;
-  height: 550px;
-  padding: 20px;
-  margin: 0;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);
-} */
